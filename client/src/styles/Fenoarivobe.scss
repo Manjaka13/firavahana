@@ -1,0 +1,36 @@
+@import "./vars";
+
+.fv-fenoarivobe {
+	.list {
+		display: block;
+		width: 100%;
+		text-align: center;
+		.image-data {
+			margin: 5px;
+		}
+	}
+	.data {
+		display: block;
+		width: 100%;
+		border-collapse: collapse;
+		margin-top: 20px;
+		tr {
+			display: block;
+			width: 100%;
+			text-align: center;
+			background: white;
+			th {
+				background: rgb(230, 230, 230);
+				color: black;
+			}
+			th, td {
+				display: inline-block;
+				vertical-align: top;
+				width: 33%;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				border: 1px rgb(110, 110, 110) solid;
+			}
+		}
+	}
+}
