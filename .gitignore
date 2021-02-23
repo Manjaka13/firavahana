@@ -4,4 +4,4 @@
 *.db
 package-lock.json
 LICENSE
-/img/
+*.jpg

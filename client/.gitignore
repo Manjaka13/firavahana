@@ -3,4 +3,4 @@
 *.eslintcache
 *.db
 package-lock.json
-/img/
+*.jpg
